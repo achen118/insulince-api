@@ -25,7 +25,7 @@ column name  |  data type  |  details
 ------------ | ----------- | ---------
 id | integer | null = false, primary key
 user_id | integer | null = false, foreign key, indexed
-chest | integer | null = false
-waist | integer | null = false
-hips | integer | null = false
-weight | integer | null = false
+chest | integer |
+waist | integer |
+hips | integer |
+weight | integer |
