@@ -1,7 +1,6 @@
 # Insulince
----
 
-### Insulince is a project aiming to help women with polycystic ovarian syndrome (insulin resistance) to track nutrition and food.
+### Insulince is a project aiming to help anyone with Insulin Resistance Syndrome to track nutrition and food intake.
 
 ## Background and Overview
 #### What is insulin?
@@ -13,40 +12,40 @@ In insulin resistance, muscle, fat, and liver cells do not respond properly to i
 Over time, insulin resistance can lead to type 2 diabetes and prediabetes because the beta cells fail to keep up with the body's increased need for insulin. Without enough insulin, excess glucose builds up in the bloodstream, leading to diabetes, prediabetes, and other serious health disorders.
 
 #### What can be done about insulin resistance?
-Adopting healthy eating habits can help people lose a modest amount of weight and reverse insulin resistance. Experts encourage people to slowly adopt healthy eating habits that they can maintain, rather than trying extreme weight-loss solutions. Insolence can help people make better choices to help maintain or reverse insulin resistance.
+Adopting healthy eating habits can help people lose a modest amount of weight and reverse insulin resistance. Experts encourage people to slowly adopt healthy eating habits that they can maintain, rather than trying extreme weight-loss solutions. Insulince can help people make better choices to help maintain or reverse insulin resistance.
 
 ## Functionality & MVP
 
    - [ ] Users accounts have secure token authentication, so they only have to sign in once (per device)
-   - [ ] Food Journal -> UPC scanner
-          -[ ] Calender Display
-   - [ ] Measurements and Weight
-   - [ ] Curated / Suggested meal plan
+   - [ ] Food Journal with UPC scanner
+          - [ ] Calendar Display
+   - [ ] Measurements and Weight Tracker
+   - [ ] Curated/Suggested meal plan
    - [ ] Food Search
 
 #### Bonus Features
-   - [ ] Create personal Recipes
-   - [ ] Alerts/ Reminders (water, time between eating)
-   - [ ] Badges Achievements
-   - [ ] Recipe Search (quick add)
+   - [ ] Create personal recipes
+   - [ ] Alerts/Reminders (water, time between eating)
+   - [ ] Badges/Achievements
+   - [ ] Recipe Search (+ quick add)
    - [ ] Step tracker/timer
    - [ ] Mental Health tracking
-   - [ ] Randomize curated meal plan
+   - [ ] Additional curated meal plans and randomization
 
 ## Technology
 * PostgreSQL
 * Ruby / Rails Backend
 * JS / React Native / Redux Frontend
-* Nutritionix AP
-* Hooking into iPhone functionality.
+* Nutritionix API
+* Hooking into iPhone & Android functionality
 
 [Backend Github](https://github.com/achen118/insulince-api)
 
 #### Tables
-- User(username, email, password, session token)
-- Measurements(user_id, chest waist, hips)
-- Journal Entries(user_id, Breakfast, Lunch, Dinner, Snacks)(New for Breakfast and will update for Lunch and Dinner)
-- Calender Entries (user_id, date, journal entry)
+- Users (username, email, password_digest, session_token)
+- Measurements (user_id, chest, waist, hips, weight)
+- Journal Entries (user_id, Breakfast, Lunch, Dinner, Snacks) (New for Breakfast and will update for Lunch and Dinner)
+- Calendar Entries (user_id, date, journal entry)
 
 
 #### UX
@@ -64,7 +63,7 @@ Adopting healthy eating habits can help people lose a modest amount of weight an
 
 **Mary Howell**,
 **Alice Chen**,
-**Ryan Murphy**,
+**Ryan Murphy**
 
 ### Day 1
 
