@@ -18,7 +18,7 @@ Adopting healthy eating habits can help people lose a modest amount of weight an
 
    - [ ] Users accounts have secure token authentication, so they only have to sign in once (per device)
    - [ ] Food Journal with UPC scanner
-          - [ ] Calendar Display
+      - [ ] Calendar Display
    - [ ] Measurements and Weight Tracker
    - [ ] Curated/Suggested meal plan
    - [ ] Food Search
