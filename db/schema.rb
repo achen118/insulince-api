@@ -10,16 +10,17 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20170806105853) do
+ActiveRecord::Schema.define(version: 20170806191439) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
+  enable_extension "hstore"
 
   create_table "journal_entries", force: :cascade do |t|
     t.integer "user_id", null: false
-    t.text "entry", default: [], null: false, array: true
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.hstore "entry", default: {}, null: false
     t.index ["user_id"], name: "index_journal_entries_on_user_id"
   end
 
