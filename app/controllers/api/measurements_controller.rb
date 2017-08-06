@@ -5,6 +5,7 @@ class Api::MeasurementsController < ApplicationController
 
   def create
     @measurement = Measurement.new(measurement_params)
+    @measurement.user = current_user
     if @measurement.save
       render :show
     else
