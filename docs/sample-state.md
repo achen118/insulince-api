@@ -117,7 +117,8 @@
         "chest": 36,
         "waist": 34,
         "hips": 40,
-        "weight": 150
+        "weight": 150,
+        "height": 67
       },
       "2": {
         "id": 2,
@@ -125,7 +126,8 @@
         "chest": "",
         "waist": "",
         "hips": "",
-        "weight": 145
+        "weight": 145,
+        "height": ""
       }
     }
   },
