@@ -17,7 +17,6 @@
 
 ### Journal_Entries
 - `GET api/journal_entries` journal_entries#index
-- `GET api/journal_entries/:id` journal_entries#show
 - `POST api/journal_entries` journal_entries#create
 - `PATCH api/journal_entries/:id` journal_entries#update
 - `DELETE api/journal_entries/:id` journal_entries#destroy
