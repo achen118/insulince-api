@@ -17,7 +17,7 @@ Adopting healthy eating habits can help people lose a modest amount of weight an
 
 ## Functionality & MVP
 
-   - [ ] Users Account OAuth
+   - [ ] Users accounts have secure token authentication, so they only have to sign in once (per device)
    - [ ] Food Journal -> UPC scanner
           -[ ] Calender Display
    - [ ] Measurements and Weight
@@ -33,9 +33,14 @@ Adopting healthy eating habits can help people lose a modest amount of weight an
    - [ ] Mental Health tracking
    - [ ] Randomize curated meal plan
 
-## Technologies & Technical Challenges
-  ##### Backend: Ruby/Rails
-  ##### Frontend: React Native/JavaScript
+## Technology
+* PostgreSQL
+* Ruby / Rails Backend
+* JS / React Native / Redux Frontend
+* Nutritionix AP
+* Hooking into iPhone functionality.
+
+[Backend Github](https://github.com/achen118/insulince-api)
 
 #### Tables
 - User(username, email, password, session token)
@@ -50,7 +55,7 @@ Adopting healthy eating habits can help people lose a modest amount of weight an
 
 
 ## Accomplished over the Weekend
-- Setup for React Native (Expo, Update npm, )
+- Setup for React Native (Expo, Update npm,  )
 - Creating Backend and User Authentication
 -
 
