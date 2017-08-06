@@ -23,7 +23,7 @@ Adopting healthy eating habits can help people lose a modest amount of weight an
    - [ ] Curated/Suggested meal plan
    - [ ] Food Search
 
-#### Bonus Features
+#### Bonus/ Brainstorming Features
    - [ ] Create personal recipes
    - [ ] Alerts/Reminders (water, time between eating)
    - [ ] Badges/Achievements
@@ -41,15 +41,16 @@ Adopting healthy eating habits can help people lose a modest amount of weight an
 
 [Backend Github](https://github.com/achen118/insulince-api)
 
-#### UX
+### Technological Challenges
 
-## Project Flowchart
+The most obvious challenge is learning techs that we are not familiar with yet, including React Native, Xcode, Nutritionix API, hooking into the iPhone's camera for UPC codes, and adding auth to a mobile app (connecting to a Rails backend).
 
+The second challenge is optimizing the the number of n + 1 queries to make sure our user experience is quick and responsive. We'll need to make sure we're querying enough to make the experience interesting, without keeping the app on the loading screen.
 
 ## Accomplished over the Weekend
-- Setup for React Native (Expo, Update npm,  )
+- Setup for React Native (Expo, Update npm, watchman )
 - Creating Backend and User Authentication
--
+- Design decisions (UI, UX, Name, Logo)
 
 ## Group Members & Work Breakdown
 
@@ -57,14 +58,64 @@ Adopting healthy eating habits can help people lose a modest amount of weight an
 **Alice Chen**,
 **Ryan Murphy**
 
-### Day 1
+__Sunday (Aug 6)__
+**Objective:** Complete proposal Start and finish Auth
+- [ ] Proposal
+- [ ] Backend auth constructed
+- [ ] Auth
 
-### Day 2
+__Monday (Aug 7)__
+**Objective:**  Redux Cycle, Make base React components
+- [ ] Host app on servers
+- [ ] Backend 100% completed
+- [ ] Seed database
+- [ ] API calls
+- [ ] Thunk actions
+- [ ] Actions
+- [ ] Reducer
+- [ ] Store
 
-### Day 3
+- [ ] NavContainer
+- [ ] LoginFormContainer
 
-### Day 4
 
-### Day 5
+__Tuesday (Aug 8)__
+**Objective:** Work on components
+- [ ] JournalEntry (Alice/ Ryan)
+- [ ] FoodSearch (Alice)
+- [ ] Calendar (Mary)
+- [ ] Measurements/D3 (Mary)
 
-### Day 6
+__Wednesday (Aug 9)__
+**Objective:**  Work on Components
+- [ ] JournalEntry (Alice/ Ryan)
+- [ ] FoodSearch (Alice)
+- [ ] Calendar (Mary)
+- [ ] Measurements/D3 (Mary)
+
+__Thursday (Aug 10)__
+**Objective:** Work on Components
+- [ ] JournalEntry (Alice/ Ryan)
+- [ ] FoodSearch (Alice)
+- [ ] Calendar (Mary)
+- [ ] Measurements/D3 (Mary)
+
+__Friday (Aug 11)__
+**Objective:** Complete Components
+- [ ] JournalEntry (Alice/ Ryan)
+- [ ] FoodSearch (Alice)
+- [ ] Calendar (Mary)
+- [ ] Measurements/D3 (Mary)
+- [ ] Demo Site/Emulator
+
+__Saturday (Aug 12)__
+**Objective:** Styling / UX
+- [ ] Demo Site/Emulator
+- [ ] Navigation
+- [ ] Alerts
+
+__Sunday (Aug 13)__
+**Objective:** Launch production app
+- [ ] Production README
+- [ ] Demo Site/Emulator Finished
+- [ ] Launched!
