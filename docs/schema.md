@@ -30,3 +30,4 @@ waist | integer |
 hips | integer |
 weight | integer |
 height | integer |
+created_at | date | from Rails timestamp
