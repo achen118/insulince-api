@@ -1,7 +1,8 @@
 # API Endpoints
 
 ### Users
-- `GET /api/users/` users#index
+- `GET /api/users/:id` users#show
+- `DELETE /api/users/:id` users#destroy
 - `POST /api/users` users#create
 
 ### Session
