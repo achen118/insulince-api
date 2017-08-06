@@ -16,7 +16,7 @@ column name  |  data type  |  details
 ------------ | ----------- | ---------
 id | integer | null = false, primary key
 user_id | integer | null = false, foreign key, indexed
-entry | array | null = false
+entry | hstore | default = {}, null = false
 created_at | date | from Rails timestamp
 
 ## measurements
