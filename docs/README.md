@@ -47,10 +47,13 @@ The most obvious challenge is learning techs that we are not familiar with yet, 
 
 The second challenge is optimizing the the number of n + 1 queries to make sure our user experience is quick and responsive. We'll need to make sure we're querying enough to make the experience interesting, without keeping the app on the loading screen.
 
+Thinking about adding graphs is going to be challenging.  React Native added the ability to use D3 but there is still not an abundance of documentation other than some small examples.  We will be trying to use this to render data to the user.  
+
 ## Accomplished over the Weekend
 - Setup for React Native (Expo, Update npm, watchman )
 - Creating Backend and User Authentication
 - Design decisions (UI, UX, Name, Logo)
+- Researching ability to use D3/ART for rendering data.
 
 ## Group Members & Work Breakdown
 
