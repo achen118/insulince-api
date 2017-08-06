@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  user_id: 1
+  chest: 1
+  waist: 1
+  hips: 1
+  weight: 1
+  height: 1
+
+two:
+  user_id: 1
+  chest: 1
+  waist: 1
+  hips: 1
+  weight: 1
+  height: 1
