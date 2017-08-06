@@ -2,8 +2,8 @@
 
 ### Users
 - `GET /api/users/:id` users#show
-- `DELETE /api/users/:id` users#destroy
 - `POST /api/users` users#create
+- `DELETE /api/users/:id` users#destroy
 
 ### Session
 - `POST /api/session` session#create
@@ -12,11 +12,11 @@
 ### Measurements
 - `GET /api/measurements` measurement#index
 - `POST /api/measurements` measurement#create
-- `PATCH /api/measurements` measurement#update
-- `DELETE /api/measurements` measurement#destroy
+- `PATCH /api/measurements/:id` measurement#update
+- `DELETE /api/measurements/:id` measurement#destroy
 
 ### Journal_Entries
 - `GET api/journal_entries` journal_entries#index
 - `POST api/journal_entries` journal_entries#create
-- `PATCH api/journal_entries` journal_entries#update
-- `DELETE api/journal_entries` journal_entries#destroy
+- `PATCH api/journal_entries/:id` journal_entries#update
+- `DELETE api/journal_entries/:id` journal_entries#destroy
