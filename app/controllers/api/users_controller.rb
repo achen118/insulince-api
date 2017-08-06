@@ -1,4 +1,4 @@
-class UsersController < ApplicationController
+class Api::UsersController < ApplicationController
   def show
     @user = User.find_by(id: params[:id])
   end
@@ -6,7 +6,7 @@ class UsersController < ApplicationController
   def create
     @user = User.new(user_params)
     if @user.save
-      render :show
+      render json: @user
     else
       render json: @user.errors.full_messages, status: 422
     end
