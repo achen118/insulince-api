@@ -29,3 +29,4 @@ chest | integer |
 waist | integer |
 hips | integer |
 weight | integer |
+height | integer |

@@ -19,7 +19,7 @@ Adopting healthy eating habits can help people lose a modest amount of weight an
    - [ ] Users accounts have secure token authentication, so they only have to sign in once (per device)
    - [ ] Food Journal with UPC scanner
       - [ ] Calendar Display
-   - [ ] Measurements and Weight Tracker
+   - [ ] Measurements and Weight Tracker (with BMI calculator)
    - [ ] Curated/Suggested meal plan
    - [ ] Food Search
 
@@ -41,13 +41,6 @@ Adopting healthy eating habits can help people lose a modest amount of weight an
 
 [Backend Github](https://github.com/achen118/insulince-api)
 
-#### Tables
-- Users (username, email, password_digest, session_token)
-- Measurements (user_id, chest, waist, hips, weight)
-- Journal Entries (user_id, Breakfast, Lunch, Dinner, Snacks) (New for Breakfast and will update for Lunch and Dinner)
-- Calendar Entries (user_id, date, journal entry)
-
-
 #### UX
 
 ## Project Flowchart
@@ -57,7 +50,6 @@ Adopting healthy eating habits can help people lose a modest amount of weight an
 - Setup for React Native (Expo, Update npm,  )
 - Creating Backend and User Authentication
 -
-
 
 ## Group Members & Work Breakdown
 
