@@ -59,10 +59,12 @@ The second challenge is optimizing the the number of n + 1 queries to make sure 
 Thinking about adding graphs is going to be challenging.  React Native added the ability to use D3 but there is still not an abundance of documentation other than some small examples.  We will be trying to use this to render data to the user.  
 
 ## Accomplished over the Weekend
-- Setup for React Native (Expo, Update npm, watchman )
-- Creating Backend and User Authentication
-- Design decisions (UI, UX, Name, Logo)
-- Researching ability to use D3/ART for rendering data.
+- Setup for React Native (Expo, Update npm, watchman)
+- Created Backend and User Authentication in Rails
+- Created Redux cycle reducers and store
+- Started building Redux cycle actions
+- Made design decisions (UI, UX, Name, Logo)
+- Researched ability to use D3/ART for rendering data.
 
 ## Group Members & Work Breakdown
 
