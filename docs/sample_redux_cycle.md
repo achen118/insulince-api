@@ -42,8 +42,8 @@
         byId: {}
     }
 
+    let nextState;
     switch(action.type) {
-      let nextState;
       case(RECEIVE_ALL_JOURNAL_ENTRIES):
         nextState = merge({}, defaultState);
         action.journalEntries.forEach(journalEntry => {
@@ -67,8 +67,8 @@
         byId: {}
     }
 
+    let nextState;
     switch(action.type) {
-      let nextState;
       case(RECEIVE_ALL_MEASUREMENTS):
         nextState = merge({}, defaultState);
         action.measurements.forEach(measurement => {
