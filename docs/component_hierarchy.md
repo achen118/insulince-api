@@ -17,8 +17,8 @@
 + FoodSearchContainer
     + FoodSearchIndex(search bar and results)
         + FoodSearchIndexItem    
-+ CalendarContainer
-    + CalendarIndex
++ MacroTrackerContainer
+    + MacroTracker
 + MeasurementsContainer
     + MeasurementsIndex
     + MeasurementsForm
@@ -31,4 +31,4 @@
 * Food Search Page
 * Journal Entry Page
 * Measurements Page
-* Calendar Page
+* Macro Tracker Page

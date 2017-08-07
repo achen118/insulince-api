@@ -21,7 +21,7 @@ Adopting healthy eating habits can help people lose a modest amount of weight an
 
    - [ ] Users accounts have secure token authentication, so they only have to sign in once (per device)
    - [ ] Food Journal with UPC scanner
-      - [ ] Calendar Display
+   - [ ] Macro Tracker
    - [ ] Measurements and Weight Tracker (with BMI calculator)
    - [ ] Curated/Suggested meal plan
    - [ ] Food Search
@@ -97,28 +97,28 @@ __Tuesday (Aug 8)__
 **Objective:** Work on components
 - [ ] JournalEntry (Alice/ Ryan)
 - [ ] FoodSearch (Alice)
-- [ ] Calendar (Mary)
+- [ ] Macro Tracker/D3 (Mary)
 - [ ] Measurements/D3 (Mary)
 
 __Wednesday (Aug 9)__
 **Objective:**  Work on Components
 - [ ] JournalEntry (Alice/ Ryan)
 - [ ] FoodSearch (Alice)
-- [ ] Calendar (Mary)
+- [ ] Macro Tracker/D3 (Mary)
 - [ ] Measurements/D3 (Mary)
 
 __Thursday (Aug 10)__
 **Objective:** Work on Components
 - [ ] JournalEntry (Alice/ Ryan)
 - [ ] FoodSearch (Alice)
-- [ ] Calendar (Mary)
+- [ ] Macro Tracker/D3 (Mary)
 - [ ] Measurements/D3 (Mary)
 
 __Friday (Aug 11)__
 **Objective:** Complete Components
 - [ ] JournalEntry (Alice/ Ryan)
 - [ ] FoodSearch (Alice)
-- [ ] Calendar (Mary)
+- [ ] Macro Tracker/D3 (Mary)
 - [ ] Measurements/D3 (Mary)
 - [ ] Demo Site/Emulator
 
