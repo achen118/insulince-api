@@ -14,7 +14,7 @@ JournalEntry.destroy_all
 
 demo = User.create!(
   username: "Demo",
-  email: "Demo@gmail.com",
+  email: "DemoUser@gmail.com",
   password: "12345678"
 )
 
