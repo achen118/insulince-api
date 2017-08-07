@@ -4,8 +4,8 @@ class User < ApplicationRecord
   validates :password, length: { minimum: 6, allow_nil: true }
   after_initialize :ensure_session_token
 
-  has_many :journal_entries
-  has_many :measurements
+  has_many :journal_entries, dependent: :destroy
+  has_many :measurements, dependent: :destroy
 
   attr_reader :password
 
