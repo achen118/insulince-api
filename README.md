@@ -88,7 +88,6 @@ __Monday (Aug 7)__
 - [ ] Actions
 - [ ] Reducer
 - [ ] Store
-
 - [ ] NavContainer
 - [ ] LoginFormContainer
 
