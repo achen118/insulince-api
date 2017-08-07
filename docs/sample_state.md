@@ -1,5 +1,5 @@
 # Sample State
-```javascript
+```
 {
   "currentUser": {
     "id": 1,

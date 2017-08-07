@@ -32,6 +32,15 @@ Adopting healthy eating habits can help people lose a modest amount of weight an
    - [ ] Mental Health tracking
    - [ ] Additional curated meal plans and randomization
 
+
+## Design Docs
+* [View Wireframes](https://github.com/achen118/insulince-api/tree/master/docs/WireFrames)
+* [API Endpoints](https://github.com/achen118/insulince-api/blob/master/docs/api_endpoints.md)
+* [DB Schema](https://github.com/achen118/insulince-api/blob/master/docs/schema.md)
+* [Component Hierarchy](https://github.com/achen118/insulince-api/blob/master/docs/component_hierarchy.md)
+* [Sample State](https://github.com/achen118/insulince-api/blob/master/docs/sample_state.md)
+* [Sample Redux Cycle](https://github.com/achen118/insulince-api/blob/master/docs/sample_redux_cycle.md)
+
 ## Technology
 * PostgreSQL
 * Ruby / Rails Backend
@@ -39,7 +48,7 @@ Adopting healthy eating habits can help people lose a modest amount of weight an
 * Nutritionix API
 * Hooking into iPhone & Android functionality
 
-[Backend Github](https://github.com/achen118/insulince-api)
+[Backend Github](https://github.com/achen118/insulince-api) [Frontend Github](https://github.com/rmurphy178/insulince)
 
 #### UX
 
