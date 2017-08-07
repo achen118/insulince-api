@@ -2,6 +2,9 @@
 
 ### Insulince is a project aiming to help anyone with Insulin Resistance Syndrome to track nutrition and food intake.
 
+* [Backend Github](https://github.com/achen118/insulince-api)<br />
+* [Frontend Github](https://github.com/rmurphy178/insulince)
+
 ## Background and Overview
 #### What is insulin?
 Insulin plays a major role in metabolism—the way the body uses digested food for energy. The digestive tract breaks down carbohydrates—sugars and starches found in many foods—into glucose. Glucose is a form of sugar that enters the bloodstream. With the help of insulin, cells throughout the body absorb glucose and use it for energy.
@@ -47,8 +50,6 @@ Adopting healthy eating habits can help people lose a modest amount of weight an
 * JS / React Native / Redux Frontend
 * Nutritionix API
 * Hooking into iPhone & Android functionality
-
-[Backend Github](https://github.com/achen118/insulince-api) [Frontend Github](https://github.com/rmurphy178/insulince)
 
 ### Technological Challenges
 
