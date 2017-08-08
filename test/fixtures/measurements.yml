@@ -2,16 +2,16 @@
 
 one:
   user_id: 
-  chest: 
-  waist: 
-  hips: 
-  weight: 
+  chest:
+  waist:
+  hips:
+  weight:
   height: 1
 
 two:
-  user_id: 
-  chest: 
-  waist: 
-  hips: 
-  weight: 
+  user_id:
+  chest:
+  waist:
+  hips:
+  weight:
   height: 1
