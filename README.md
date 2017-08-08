@@ -75,22 +75,22 @@ Thinking about adding graphs is going to be challenging.  React Native added the
 
 __Sunday (Aug 6)__
 **Objective:** Complete proposal Start and finish Auth
-- [ ] Proposal
-- [ ] Backend auth constructed
-- [ ] Auth
+- [ X ] Proposal
+- [ X ] Backend auth constructed
+- [ X ] Auth
 
 __Monday (Aug 7)__
 **Objective:**  Redux Cycle, Make base React components
 - [ ] Host app on servers
-- [ ] Backend 100% completed
-- [ ] Seed database
+- [ X ] Backend 100% completed
+- [ X ] Seed database
 - [ ] API calls
-- [ ] Thunk actions
-- [ ] Actions
-- [ ] Reducer
-- [ ] Store
+- [ X ] Thunk actions
+- [ X ] Actions
+- [ X ] Reducer
+- [ X ] Store
 - [ ] NavContainer
-- [ ] LoginFormContainer
+- [ X ] LoginFormContainer
 
 
 __Tuesday (Aug 8)__
