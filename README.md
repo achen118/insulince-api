@@ -92,7 +92,6 @@ __Monday (Aug 7)__
 - [ ] NavContainer
 - [x] LoginFormContainer
 
-
 __Tuesday (Aug 8)__
 **Objective:** Work on components
 - [ ] JournalEntry (Alice/ Ryan)
