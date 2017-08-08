@@ -6,13 +6,13 @@ module Api
         user: {
           id: entity.id,
           username: entity.username,
-          email: entity.email 
+          email: entity.email
         }
       }, status: :created
     end
 
     def auth_params
-      params.require(:auth).permit(:username, :email, :password)
+      params.require(:auth).permit(:username, :email, :user_credential :password)
     end
   end
 end
