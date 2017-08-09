@@ -36,5 +36,7 @@ class Api::UsersController < ApplicationController
 
   def user_params
     params.require(:user).permit(:username, :email, :password)
+    params[:user][:username] = params[:user][:username].downcase
+    params[:user][:email] = params[:user][:email].downcase
   end
 end

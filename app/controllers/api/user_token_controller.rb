@@ -4,8 +4,8 @@ module Api
       render json: {
         auth_token: auth_token.token,
         id: entity.id,
-        username: entity.username,
-        email: entity.email
+        username: entity.username.downcase,
+        email: entity.email.downcase
       }, status: :created
     end
 
