@@ -30,6 +30,8 @@ gem 'uglifier', '>= 2.7.2'
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
 
+gem 'coffee-rails'
+
 # Use Capistrano for deployment
 gem 'capistrano-rails', group: :development
 
