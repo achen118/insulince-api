@@ -81,5 +81,5 @@ test:
 production:
   <<: *default
   database: Insulince_API_production
-  username: Insulince_API
+  username: alice
   password: <%= ENV['INSULINCE_API_DATABASE_PASSWORD'] %>
