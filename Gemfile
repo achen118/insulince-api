@@ -25,6 +25,8 @@ gem 'sass-rails'
 gem 'uglifier'
 gem 'coffee-rails'
 
+gem 'rails_12factor'
+
 # Use Capistrano for deployment
 gem 'capistrano-rails', group: :development
 
