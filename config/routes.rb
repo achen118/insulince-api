@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  root "/"
+
   namespace :api, defaults: { format: 'json' } do
     post 'user_token' => 'user_token#create'
     resources :users, only: [:show, :create, :update, :destroy]
