@@ -21,6 +21,8 @@ gem 'bcrypt', '~> 3.1.7'
 gem 'jwt'
 gem 'knock'
 
+gem 'sass-rails'
+gem 'uglifier'
 gem 'coffee-rails'
 
 # Use Capistrano for deployment
