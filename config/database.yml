@@ -81,5 +81,6 @@ test:
 production:
   <<: *default
   database: Insulince_API_production
+  # host: ec2-54-193-76-145.us-west-1.compute.amazonaws.com
   username: alice
   password: <%= ENV['INSULINCE_API_DATABASE_PASSWORD'] %>
