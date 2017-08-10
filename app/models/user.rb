@@ -20,9 +20,9 @@ class User < ApplicationRecord
   alias_method :authenticate, :is_password?
 
   def self.from_token_request request
-    user_credential = request.params[:auth] && request.params[:auth][:user_credential]
-    username = request.params[:auth] && request.params[:auth][:username]
-    email = request.params[:auth] && request.params[:auth][:email]
+    user_credential = request.params[:auth][:user_credential]
+    username = request.params[:auth][:username]
+    email = request.params[:auth][:email]
     if user_credential
       user = User.find_by(username: user_credential)
       user = User.find_by(email: user_credential) unless user
