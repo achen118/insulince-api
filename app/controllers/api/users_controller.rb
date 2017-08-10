@@ -7,6 +7,8 @@ class Api::UsersController < ApplicationController
 
   def create
     @user = User.new(user_params)
+    @user.username = @user.username.downcase
+    @user.email = @user.email.downcase
     if @user.save
       render :show
     else
@@ -36,7 +38,5 @@ class Api::UsersController < ApplicationController
 
   def user_params
     params.require(:user).permit(:username, :email, :password)
-    params[:user][:username] = params[:user][:username].downcase
-    params[:user][:email] = params[:user][:email].downcase
   end
 end
