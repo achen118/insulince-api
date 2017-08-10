@@ -9,6 +9,7 @@ class Api::UsersController < ApplicationController
     @user = User.new(user_params)
     @user.username = @user.username.downcase
     @user.email = @user.email.downcase
+    p @user
     if @user.save
       render :show
     else
