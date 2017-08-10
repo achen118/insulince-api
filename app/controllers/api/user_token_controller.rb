@@ -16,5 +16,11 @@ module Api
     def auth_params
       params.require(:auth).permit(:username, :email, :user_credential, :password)
     end
+
+    rescue_from Knock.not_found_exception_class_name, with: :bad_request
+
+    def bad_request
+      render json: { error: "Invalid email address/password" }, status: :bad_request
+    end
   end
 end
