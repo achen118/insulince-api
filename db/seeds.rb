@@ -4,49 +4,49 @@ JournalEntry.destroy_all
 
 
 demo = User.create!(
-  username: "Demo",
-  email: "DemoUser@gmail.com",
+  username: "demo",
+  email: "demoUser@gmail.com",
   password: "12345678"
 )
 
 user1 = User.create!(
-  username: "Mary",
+  username: "mary",
   email: "mary@gmail.com",
   password: "12345678"
 )
 
 user2 = User.create!(
-  username: "Alice",
+  username: "alice",
   email: "alice@gmail.com",
   password: "12345678"
 )
 
 user3 = User.create!(
-  username: "Ryan",
+  username: "ryan",
   email: "ryan@gmail.com",
   password: "12345678"
 )
 
 user4 = User.create!(
-  username: "Andrew",
+  username: "andrew",
   email: "andrew@gmail.com",
   password: "12345678"
 )
 
 user5 = User.create!(
-  username: "Stone",
+  username: "stone",
   email: "stone@gmail.com",
   password: "12345678"
 )
 
 user6 = User.create!(
-  username: "Atom",
+  username: "atom",
   email: "atom@gmail.com",
   password: "12345678"
 )
 
 user7 = User.create!(
-  username: "Casey",
+  username: "casey",
   email: "casey@gmail.com",
   password: "12345678"
 )
@@ -58,13 +58,13 @@ user8 = User.create!(
 )
 
 user9 = User.create!(
-  username: "Pancake",
-  email: "Pancake@gmail.com",
+  username: "pancake",
+  email: "pancake@gmail.com",
   password: "12345678"
 )
 
 user10 = User.create!(
-  username: "Nick",
+  username: "nick",
   email: "nick@gmail.com",
   password: "12345678"
 )
