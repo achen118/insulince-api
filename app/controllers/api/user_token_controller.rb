@@ -1,12 +1,16 @@
 module Api
   class UserTokenController < Knock::AuthTokenController
     def create
-      render json: {
-        auth_token: auth_token.token,
-        id: entity.id,
-        username: entity.username.downcase,
-        email: entity.email.downcase
-      }, status: :created
+      if current_user
+        render json: {
+          auth_token: auth_token.token,
+          id: entity.id,
+          username: entity.username.downcase,
+          email: entity.email.downcase
+          }, status: :created
+      else
+        render json: ["Invalid credentials"], status: 422
+      end
     end
 
     def auth_params
