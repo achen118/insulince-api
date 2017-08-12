@@ -7,6 +7,7 @@ class Api::JournalEntriesController < ApplicationController
 
   def create
     @journal_entry = JournalEntry.new(journal_entry_params)
+    p @journal_entry
     @journal_entry.user = current_user
     if @journal_entry.save
       render :show
