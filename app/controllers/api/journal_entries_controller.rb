@@ -37,9 +37,6 @@ class Api::JournalEntriesController < ApplicationController
   private
 
   def journal_entry_params
-    entry = params[:journal_entry].delete(:entry) if params[:journal_entry][:entry]
-    params.require(:journal_entry).tap do |whitelisted|
-      whitelisted[:entry] = entry.permit!
-    end
+    params.require(:journal_entry).permit(:entry => {})
   end
 end
