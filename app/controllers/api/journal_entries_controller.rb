@@ -37,6 +37,8 @@ class Api::JournalEntriesController < ApplicationController
   private
 
   def journal_entry_params
-    params.require(:journal_entry).permit(:entry)
+    params.require(:journal_entry).tap do |whitelisted|
+      whitelisted[:entry] = params[:journal_entry][:entry]
+    end
   end
 end
