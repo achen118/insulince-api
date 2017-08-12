@@ -71,7 +71,7 @@ user10 = User.create!(
 
 journal1 = JournalEntry.create!(
   user_id: demo.id,
-  entry: {
+
     breakfast: [
       {
       item_id: "513fceb375b8dbbc21000152",
@@ -652,13 +652,13 @@ journal1 = JournalEntry.create!(
         quanitiy: 1
       }
     ]
-  }
+
 )
 
 
 journal2 = JournalEntry.create!(
   user_id: user2.id,
-  entry: {
+
     breakfast: [
       {
       item_id: "521b95c94a56d006d578b529",
@@ -752,12 +752,12 @@ journal2 = JournalEntry.create!(
       quanitiy: 1
      }
     ]
-  }
+
 )
 
 journal3 = JournalEntry.create!(
   user_id: user3.id,
-  entry: {
+
     breakfast: [
       {
         item_id: "513fceb475b8dbbc21000dda",
@@ -854,12 +854,12 @@ journal3 = JournalEntry.create!(
         quanitiy: 1
       }
     ]
-  }
+
 )
 
 journal4 = JournalEntry.create!(
   user_id: user4.id,
-  entry: {
+
     breakfast: [
       {
       item_id: "521b95c94a56d006d578b529",
@@ -953,7 +953,7 @@ journal4 = JournalEntry.create!(
       quanitiy: 1
      }
     ]
-  }
+
 )
 
 
