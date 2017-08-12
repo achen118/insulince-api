@@ -5,6 +5,10 @@ class Api::JournalEntriesController < ApplicationController
     @journal_entries = current_user.journal_entries
   end
 
+  def show
+    @journal_entry = current_user.journal_entries.find_by(id: params[:id])
+  end
+
   def create
     @journal_entry = JournalEntry.new(journal_entry_params)
     @journal_entry.user = current_user

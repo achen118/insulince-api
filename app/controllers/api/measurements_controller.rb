@@ -5,6 +5,10 @@ class Api::MeasurementsController < ApplicationController
     @measurements = current_user.measurements
   end
 
+  def show
+    @measurement = current_user.measurements.find_by(id: params[:id])
+  end
+
   def create
     @measurement = Measurement.new(measurement_params)
     @measurement.user = current_user
