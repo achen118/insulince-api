@@ -70,7 +70,7 @@ user10 = User.create!(
 )
 
 journal1 = JournalEntry.create!(
-  user_id: user1.id,
+  user_id: demo.id,
   entry: {
     breakfast: [
       {
