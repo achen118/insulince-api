@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20170812202413) do
+ActiveRecord::Schema.define(version: 20170812210344) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -20,10 +20,10 @@ ActiveRecord::Schema.define(version: 20170812202413) do
     t.integer "user_id", null: false
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
-    t.text "breakfast", default: [], array: true
-    t.text "lunch", default: [], array: true
-    t.text "dinner", default: [], array: true
-    t.text "snacks", default: [], array: true
+    t.hstore "breakfast", default: [], array: true
+    t.hstore "lunch", default: [], array: true
+    t.hstore "dinner", default: [], array: true
+    t.hstore "snacks", default: [], array: true
     t.index ["user_id"], name: "index_journal_entries_on_user_id"
   end
 
