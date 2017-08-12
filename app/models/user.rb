@@ -31,8 +31,4 @@ class User < ApplicationRecord
     end
     user
   end
-
-  def to_token_payload
-    return { id: self.id, username: self.username, email: self.email }
-  end
 end
