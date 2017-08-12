@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20170812041659) do
+ActiveRecord::Schema.define(version: 20170812201053) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -18,9 +18,12 @@ ActiveRecord::Schema.define(version: 20170812041659) do
 
   create_table "journal_entries", force: :cascade do |t|
     t.integer "user_id", null: false
-    t.hstore "entry", null: false
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.hstore "breakfast"
+    t.hstore "lunch"
+    t.hstore "dinner"
+    t.hstore "snacks"
     t.index ["user_id"], name: "index_journal_entries_on_user_id"
   end
 
