@@ -13,5 +13,6 @@
     json.snacks do
       json.array! journal_entry.snacks
     end
+    json.created_at journal_entry.created_at.to_f * 1000
   end
 end
