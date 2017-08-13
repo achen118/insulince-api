@@ -6,7 +6,11 @@ class Api::JournalEntriesController < ApplicationController
   end
 
   def show
-    @journal_entry = current_user.journal_entries.find_by(id: params[:id])
+    if params[:journal_entry][:id]
+      @journal_entry = current_user.journal_entries.find_by(id: params[:id])
+    else
+      @journal_entry = current_user.journal_entries.last
+    end
   end
 
   def create
