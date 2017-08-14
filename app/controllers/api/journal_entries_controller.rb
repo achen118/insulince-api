@@ -30,9 +30,7 @@ class Api::JournalEntriesController < ApplicationController
       if meal_name == "breakfast"
         updated_meal = @journal_entry.breakfast + params[:journal_entry][:breakfast]
         if @journal_entry && @journal_entry.update_attributes({
-          journal_entry: {
-            breakfast: updated_meal
-          }
+          breakfast: updated_meal
         })
           render :show
         else
@@ -42,9 +40,7 @@ class Api::JournalEntriesController < ApplicationController
       if meal_name == "lunch"
         updated_meal = @journal_entry.lunch + params[:journal_entry][:lunch]
         if @journal_entry && @journal_entry.update_attributes({
-          journal_entry: {
-            lunch: updated_meal
-          }
+          lunch: updated_meal
         })
           render :show
         else
@@ -54,9 +50,7 @@ class Api::JournalEntriesController < ApplicationController
       if meal_name == "dinner"
         updated_meal = @journal_entry.dinner + params[:journal_entry][:dinner]
         if @journal_entry && @journal_entry.update_attributes({
-          journal_entry: {
-            dinner: updated_meal
-          }
+          dinner: updated_meal
         })
           render :show
         else
@@ -66,9 +60,7 @@ class Api::JournalEntriesController < ApplicationController
       if meal_name == "snacks"
         updated_meal = @journal_entry.snacks + params[:journal_entry][:snacks]
         if @journal_entry && @journal_entry.update_attributes({
-          journal_entry: {
-            snacks: updated_meal
-          }
+          snacks: updated_meal
         })
           render :show
         else
