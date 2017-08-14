@@ -25,10 +25,62 @@ class Api::JournalEntriesController < ApplicationController
 
   def update
     @journal_entry = current_user.journal_entries.find_by(id: params[:id])
-    if @journal_entry && @journal_entry.update_attributes(journal_entry_params)
-      render :show
+    if params[:meal_name]
+      meal_name = params[:meal_name]
+      if meal_name == "breakfast"
+        updated_meal = @journal_entry.breakfast + params[:journal_entry][:breakfast]
+        if @journal_entry && @journal_entry.update_attributes({
+          journal_entry: {
+            breakfast: updated_meal
+          }
+        })
+          render :show
+        else
+          render json: @journal_entry.errors.full_messages, status: 422
+        end
+      end
+      if meal_name == "lunch"
+        updated_meal = @journal_entry.lunch + params[:journal_entry][:lunch]
+        if @journal_entry && @journal_entry.update_attributes({
+          journal_entry: {
+            lunch: updated_meal
+          }
+        })
+          render :show
+        else
+          render json: @journal_entry.errors.full_messages, status: 422
+        end
+      end
+      if meal_name == "dinner"
+        updated_meal = @journal_entry.dinner + params[:journal_entry][:dinner]
+        if @journal_entry && @journal_entry.update_attributes({
+          journal_entry: {
+            dinner: updated_meal
+          }
+        })
+          render :show
+        else
+          render json: @journal_entry.errors.full_messages, status: 422
+        end
+      end
+      if meal_name == "snacks"
+        updated_meal = @journal_entry.snacks + params[:journal_entry][:snacks]
+        if @journal_entry && @journal_entry.update_attributes({
+          journal_entry: {
+            snacks: updated_meal
+          }
+        })
+          render :show
+        else
+          render json: @journal_entry.errors.full_messages, status: 422
+        end
+      end
     else
-      render json: @journal_entry.errors.full_messages, status: 422
+      if @journal_entry && @journal_entry.update_attributes(journal_entry_params)
+        render :show
+      else
+        render json: @journal_entry.errors.full_messages, status: 422
+      end
     end
   end
 
