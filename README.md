@@ -47,6 +47,7 @@ Adopting healthy eating habits can help people lose a modest amount of weight an
 ## Technology
 * PostgreSQL
 * Ruby / Rails Backend
+* Knock (authentication solution for Rails API-only application based on JSON Web Tokens)
 * JS / React Native / Redux Frontend
 * Nutritionix API
 * Hooking into iPhone & Android functionality
